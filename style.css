@@ -13,7 +13,7 @@ body {
 }
 
 .vdodiv{
-    clip-path: circle(var(--clip) at 43% 44%);
+    clip-path: circle(var(--clip) at 60% 44.5%);
 }
 
 *::selection{
@@ -51,4 +51,8 @@ body[theme="salmon"] {
 }
 body[theme="salmon"].section {
     color : var(--darksalmon);
+}
+
+.page2box{
+    background-color: rgb(27, 136, 136);
 }
