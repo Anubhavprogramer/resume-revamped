@@ -6,6 +6,8 @@
     --salmon:#fa8072;
     --darksalmon:#a1463b;
     --selectioncolor:#EF9D71;
+    --blue:#1b86f1;
+    --bluetext:#175491;
 }
 
 body {
@@ -51,6 +53,13 @@ body[theme="salmon"] {
 }
 body[theme="salmon"].section {
     color : var(--darksalmon);
+}
+
+body[theme="blue"] {
+    background-color: var(--blue);
+}
+body[theme="blue"] .section {
+    color : var(--bluetext);
 }
 
 .page2box{
