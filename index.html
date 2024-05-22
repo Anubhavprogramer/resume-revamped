@@ -1,355 +1,420 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
-<body  theme="black">
+
+<body theme="black">
     <!-- main container -->
-            <div class="main w-full ">
+    <div class="main w-full ">
         <!-- this div will contain the  -->
-            <div data-color="black" class="home  section w-full h-[200vh] relative ">
-                <div class="w-full sticky top-0 left-0">
-                    <div class="btmtext absolute z-[4] bottom-[7%] w-48 left-[3%]">
-                        <h1>I build big ideas. Software. Apps. Tools. For real people. Real lives.</h1>
-                    </div>
-                    <!-- this div contain the vedio -->
-                    <div style="--clip: 100%" class="vdodiv w-full  h-screen absolute top-0 left-0 bg-red overflow-hidden z-[10]">
-                        <video autoplay loop muted class="absolute w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" src="./Assets/28320-369325356.mp4"></video>
-                        <nav class="absolute z-10 h-9 w-full">
-                            <ul class="flex justify-center items-center ">
-                                <li class="my-5 mx-5"><a class="tect-slate-200 " href="#">Home</a></li>
-                                <li class="my-5 mx-5"><a class="tect-slate-200 " href="#">About</a></li>
-                                <li class="my-5 mx-5"><a class="tect-slate-200 " href="#">Skills</a></li>
-                                <li class="my-5 mx-5"><a class="tect-slate-200 " href="#">Projects</a></li>
-                                <li class="my-5 mx-5 bg-yellow-500 rounded-full py-1 px-4"><a class="tect-slate-200"  href="#">Contact us</a></li>
-                            </ul>
-                        </nav>
-
-                        <div class="bottom_box absolute z-10 bottom-[10%] left-10 w-[500px] text-5xl leading-tight">
-                            <span class="line">Anubhav Dubey,</span>
-                            <span class="line"> Developer, Vedio Editor, Content Creator.</span>
-                        </div>
-                    </div>
-                    <!--This div will contain the marquees   -->
-                    <div class="marqueescontainer w-full h-screen relative">
-                        <div class="heading absolute top-[7%] left-1/2 -translate-x-1/2 text-center w-64">
-                            <h1 class="text-xl font-regular">Empowering brands through innovative web solutions.</h1>
-                        </div>
-                        <div class="marquee w-full scale-[1] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 overflow-hidden">
-                            <div class="row lft -translate-x-1/3  w-full py-1 flex items-center gap-7 whitespace-nowrap">
-                                <div class="element flex items-center gap-3">
-                                    <h1 class="font-['PP Neue Machina Inktrap Median'] text-7xl font-semibold">Innovative</h1>
-                                    <div class="imgdiv w-[3rem] h-[3rem] rounded-full ">
-                                        <img class=" " src="./Assets/bootstrap.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="element flex items-center gap-3">
-                                    <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">Dynamic</h1>
-                                    <div class="imgdiv w-[3rem] h-[3rem] rounded-full ">
-                                        <img class=" " src="./Assets/C.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="element flex items-center gap-3">
-                                    <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">Versatile</h1>
-                                    <div class="imgdiv w-[3rem] h-[3rem]">
-                                        <img class=" " src="./Assets/CSS.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="element flex items-center gap-3">
-                                    <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">Tech-savvy</h1>
-                                    <div class="imgdiv w-[3rem] h-[3rem] ">
-                                        <img class="h-full w-full bg-zinc-100 rounded-full" src="./Assets/git hub.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="element flex items-center gap-3">
-                                    <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">Creative</h1>
-                                    <div class="imgdiv w-[3rem] h-[3rem] rounded-full">
-                                        <img class=" " src="./Assets/html.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="element flex items-center gap-3">
-                                    <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">Resourceful</h1>
-                                </div>
-                            </div>
-                            <div class="row rgt -translate-x-1/4  w-full py-1 flex items-center gap-7 whitespace-nowrap">
-                                <div class="element flex items-center gap-3">
-                                    <h1 class="font-['PP Neue Machina Inktrap Median'] text-7xl font-semibold">Proactive</h1>
-                                    <div class="imgdiv w-[3rem] h-[3rem] rounded-full ">
-                                        <img class=" " src="./Assets/java.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="element flex items-center gap-3">
-                                    <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">Adaptive</h1>
-                                    <div class="imgdiv w-[3rem] h-[3rem] rounded-full ">
-                                        <img class=" " src="./Assets/java.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="element flex items-center gap-3">
-                                    <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">Multi-Talented</h1>
-                                    <div class="imgdiv w-[3rem] h-[3rem] rounded-full ">
-                                        <img class=" " src="./Assets/javascript.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="element flex items-center gap-3">
-                                    <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">Strategic</h1>
-                                    <div class="imgdiv w-[3rem] h-[3rem] rounded-full ">
-                                        <img class=" " src="./Assets/Python.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="element flex items-center gap-3">
-                                    <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">Detail-oriented</h1>
-                                    <div class="imgdiv w-[3rem] h-[3rem] rounded-full ">
-                                        <img class=" " src="./Assets/react.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="element flex items-c
-                                    <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">Visionary</h1>
-                                </div>
-                            </div>
-                            <div class="row lft -translate-x-2/5  w-full py-1 flex items-center gap-7 whitespace-nowrap">
-                                <div class="element flex items-center gap-3">
-                                    <h1 class="font-['PP Neue Machina Inktrap Median'] text-7xl font-semibold">Engaging</h1>
-                                    <div class="imgdiv w-[3rem] h-[3rem] rounded-full ">
-                                        <img class=" " src="./Assets/bootstrap.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="element flex items-center gap-3">
-                                    <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">Insightful</h1>
-                                    <div class="imgdiv w-[3rem] h-[3rem] rounded-full ">
-                                        <img class=" " src="./Assets/C.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="element flex items-center gap-3">
-                                    <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">Collaborative</h1>
-                                    <div class="imgdiv w-[3rem] h-[3rem] rounded-full ">
-                                        <img class=" " src="./Assets/CSS.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="element flex items-center gap-3">
-                                    <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">Results-driven</h1>
-                                    <div class="imgdiv w-[3rem] h-[3rem] rounded-full ">
-                                        <img class=" " src="./Assets/git hub.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="element flex items-center gap-3">
-                                    <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">Ambitious</h1>
-                                    <div class="imgdiv w-[3rem] h-[3rem] rounded-full ">
-                                        <img class=" " src="./Assets/html.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="element flex items-center gap-3">
-                                    <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">Analytical</h1>
-                                </div>
-                            </div>
-                            <div class="row rgt translate-x-1/6  w-full py-1 flex items-center gap-7 whitespace-nowrap">
-                                <div class="element flex items-center gap-3">
-                                    <h1 class="font-['PP Neue Machina Inktrap Median'] text-7xl font-semibold">Expressive</h1>
-                                    <div class="imgdiv w-[3rem] h-[3rem] rounded-full ">
-                                        <img class=" " src="./Assets/java.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="element flex items-center gap-3">
-                                    <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">proficient</h1>
-                                    <div class="imgdiv w-[3rem] h-[3rem] rounded-full ">
-                                        <img class="" src="./Assets/javascript.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="element flex items-center gap-3">
-                                    <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">pioneering</h1>
-                                    <div class="imgdiv w-[3rem] h-[3rem] rounded-full ">
-                                        <img class=" " src="./Assets/Python.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="element flex items-center gap-3">
-                                    <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">Tech-forward</h1>
-                                    <div class="imgdiv w-[3rem] h-[3rem] rounded-full ">
-                                        <img class=" " src="./Assets/react.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="element flex items-center gap-3">
-                                    <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">Insightful</h1>
-                                    <div class="imgdiv w-[3rem] h-[3rem] rounded-full ">
-                                        <img class=" " src="./Assets/bootstrap.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="element flex items-center gap-3">
-                                    <h1 class="font-['Kantumruy Pro'] text-7xl fomt-10emibold">Evolving</h1>
-                                </div>
-                            </div>
-                            
-                        </div>
-                    </div> 
-
+        <div data-color="black" class="home  section w-full h-[200vh] relative ">
+            <div class="w-full sticky top-0 left-0">
+                <div class="btmtext absolute z-[4] bottom-[7%] w-48 left-[3%]">
+                    <h1>I build big ideas. Software. Apps. Tools. For real people. Real lives.</h1>
                 </div>
+                <!-- this div contain the vedio -->
+                <div style="--clip: 100%"
+                    class="vdodiv w-full  h-screen absolute top-0 left-0 bg-red overflow-hidden z-[10]">
+                    <video autoplay loop muted
+                        class="absolute w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                        src="./Assets/28320-369325356.mp4"></video>
+                    <nav class="absolute z-10 h-9 w-full">
+                        <ul class="flex justify-center items-center ">
+                            <li class="my-5 mx-5"><a class="tect-slate-200 " href="#">Home</a></li>
+                            <li class="my-5 mx-5"><a class="tect-slate-200 " href="#">About</a></li>
+                            <li class="my-5 mx-5"><a class="tect-slate-200 " href="#">Skills</a></li>
+                            <li class="my-5 mx-5"><a class="tect-slate-200 " href="#">Projects</a></li>
+                            <li class="my-5 mx-5 bg-yellow-500 rounded-full py-1 px-4"><a class="tect-slate-200"
+                                    href="#">Contact us</a></li>
+                        </ul>
+                    </nav>
+
+                    <div class="bottom_box absolute z-10 bottom-[10%] left-10 w-[500px] text-5xl leading-tight">
+                        <span class="line">Anubhav Dubey,</span>
+                        <span class="line"> Developer, Vedio Editor, Content Creator.</span>
+                    </div>
+                </div>
+                <!--This div will contain the marquees   -->
+                <div class="marqueescontainer w-full h-screen relative">
+                    <div class="heading absolute top-[7%] left-1/2 -translate-x-1/2 text-center w-64">
+                        <h1 class="text-xl font-regular">Empowering brands through innovative web solutions.</h1>
+                    </div>
+                    <div
+                        class="marquee w-full scale-[1] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 overflow-hidden">
+                        <div class="row lft -translate-x-1/3  w-full py-1 flex items-center gap-7 whitespace-nowrap">
+                            <div class="element flex items-center gap-3">
+                                <h1 class="font-['PP Neue Machina Inktrap Median'] text-7xl font-semibold">Innovative
+                                </h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] rounded-full ">
+                                    <img class=" " src="./Assets/bootstrap.png" alt="">
+                                </div>
+                            </div>
+                            <div class="element flex items-center gap-3">
+                                <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">Dynamic</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] rounded-full ">
+                                    <img class=" " src="./Assets/C.png" alt="">
+                                </div>
+                            </div>
+                            <div class="element flex items-center gap-3">
+                                <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">Versatile</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem]">
+                                    <img class=" " src="./Assets/CSS.png" alt="">
+                                </div>
+                            </div>
+                            <div class="element flex items-center gap-3">
+                                <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">Tech-savvy</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] ">
+                                    <img class="h-full w-full bg-zinc-100 rounded-full" src="./Assets/git hub.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="element flex items-center gap-3">
+                                <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">Creative</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] rounded-full">
+                                    <img class=" " src="./Assets/html.png" alt="">
+                                </div>
+                            </div>
+                            <div class="element flex items-center gap-3">
+                                <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">Resourceful</h1>
+                            </div>
+                        </div>
+                        <div class="row rgt -translate-x-1/4  w-full py-1 flex items-center gap-7 whitespace-nowrap">
+                            <div class="element flex items-center gap-3">
+                                <h1 class="font-['PP Neue Machina Inktrap Median'] text-7xl font-semibold">Proactive
+                                </h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] rounded-full ">
+                                    <img class=" " src="./Assets/java.png" alt="">
+                                </div>
+                            </div>
+                            <div class="element flex items-center gap-3">
+                                <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">Adaptive</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] rounded-full ">
+                                    <img class=" " src="./Assets/java.png" alt="">
+                                </div>
+                            </div>
+                            <div class="element flex items-center gap-3">
+                                <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">Multi-Talented</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] rounded-full ">
+                                    <img class=" " src="./Assets/javascript.png" alt="">
+                                </div>
+                            </div>
+                            <div class="element flex items-center gap-3">
+                                <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">Strategic</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] rounded-full ">
+                                    <img class=" " src="./Assets/Python.png" alt="">
+                                </div>
+                            </div>
+                            <div class="element flex items-center gap-3">
+                                <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">Detail-oriented</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] rounded-full ">
+                                    <img class=" " src="./Assets/react.png" alt="">
+                                </div>
+                            </div>
+                            <div class="element flex items-c
+                                    <h1 class=" font-['Kantumruy Pro'] text-7xl font-semibold">Visionary</h1>
+                            </div>
+                        </div>
+                        <div class="row lft -translate-x-2/5  w-full py-1 flex items-center gap-7 whitespace-nowrap">
+                            <div class="element flex items-center gap-3">
+                                <h1 class="font-['PP Neue Machina Inktrap Median'] text-7xl font-semibold">Engaging</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] rounded-full ">
+                                    <img class=" " src="./Assets/bootstrap.png" alt="">
+                                </div>
+                            </div>
+                            <div class="element flex items-center gap-3">
+                                <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">Insightful</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] rounded-full ">
+                                    <img class=" " src="./Assets/C.png" alt="">
+                                </div>
+                            </div>
+                            <div class="element flex items-center gap-3">
+                                <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">Collaborative</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] rounded-full ">
+                                    <img class=" " src="./Assets/CSS.png" alt="">
+                                </div>
+                            </div>
+                            <div class="element flex items-center gap-3">
+                                <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">Results-driven</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] rounded-full ">
+                                    <img class=" " src="./Assets/git hub.png" alt="">
+                                </div>
+                            </div>
+                            <div class="element flex items-center gap-3">
+                                <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">Ambitious</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] rounded-full ">
+                                    <img class=" " src="./Assets/html.png" alt="">
+                                </div>
+                            </div>
+                            <div class="element flex items-center gap-3">
+                                <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">Analytical</h1>
+                            </div>
+                        </div>
+                        <div class="row rgt translate-x-1/6  w-full py-1 flex items-center gap-7 whitespace-nowrap">
+                            <div class="element flex items-center gap-3">
+                                <h1 class="font-['PP Neue Machina Inktrap Median'] text-7xl font-semibold">Expressive
+                                </h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] rounded-full ">
+                                    <img class=" " src="./Assets/java.png" alt="">
+                                </div>
+                            </div>
+                            <div class="element flex items-center gap-3">
+                                <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">proficient</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] rounded-full ">
+                                    <img class="" src="./Assets/javascript.png" alt="">
+                                </div>
+                            </div>
+                            <div class="element flex items-center gap-3">
+                                <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">pioneering</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] rounded-full ">
+                                    <img class=" " src="./Assets/Python.png" alt="">
+                                </div>
+                            </div>
+                            <div class="element flex items-center gap-3">
+                                <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">Tech-forward</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] rounded-full ">
+                                    <img class=" " src="./Assets/react.png" alt="">
+                                </div>
+                            </div>
+                            <div class="element flex items-center gap-3">
+                                <h1 class="font-['Kantumruy Pro'] text-7xl font-semibold">Insightful</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] rounded-full ">
+                                    <img class=" " src="./Assets/bootstrap.png" alt="">
+                                </div>
+                            </div>
+                            <div class="element flex items-center gap-3">
+                                <h1 class="font-['Kantumruy Pro'] text-7xl fomt-10emibold">Evolving</h1>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
             </div>
+        </div>
         <!-- section  -->
-            <div data-color="cyan" class="craft  section w-full h-fit flex gap-10 mt-10 justify-between z-[4] items-start py-10 px-10 relative ">
-                <div class="ltext w-[40%]  sticky top-0 left-0">
-                    <h1 class="text-9xl" >My Skills</h1>
-                    <p class="text-2xl  font-light leading-[2rem]">I'm a dynamic individual, seamlessly integrating creativity and technical expertise. My role as a web developer showcases my innovative approach to crafting digital experiences. As a content creator and YouTuber, I engage audiences with compelling content. A dedicated student at Galgotias University, I'm driven by a passion for learning and growth.</p>
-                    <h1 class="text-[5rem] leading-[5rem] mt-20  font-['PP Neue Machina Inktrap Median']">Designing tomorrow's web today.</h1>
-                    <div class="w-fit px-10 mt-5 py-5 border-[1px] border-[--darkcyan]">
-                        <div class="masker overflow-hidden">
-                            <span class="inline-block">
-                                My Github
-                            </span>
-                        </div>
+        <div data-color="cyan"
+            class="craft  section w-full h-fit flex gap-10 mt-10 justify-between z-[4] items-start py-10 px-10 relative ">
+            <div class="ltext w-[40%]  sticky top-0 left-0">
+                <h1 class="text-9xl">My Skills</h1>
+                <p class="text-2xl  font-light leading-[2rem]">I'm a dynamic individual, seamlessly integrating
+                    creativity and technical expertise. My role as a web developer showcases my innovative approach to
+                    crafting digital experiences. As a content creator and YouTuber, I engage audiences with compelling
+                    content. A dedicated student at Galgotias University, I'm driven by a passion for learning and
+                    growth.</p>
+                <h1 class="text-[5rem] leading-[5rem] mt-20  font-['PP Neue Machina Inktrap Median']">Designing
+                    tomorrow's web today.</h1>
+                <div class="w-fit px-10 mt-5 py-5 border-[1px] border-[--darkcyan]">
+                    <div class="masker overflow-hidden">
+                        <span class="inline-block">
+                            My Github
+                        </span>
                     </div>
+                </div>
+            </div>
+
+            <div class=" w-1/2 h-fit text-2xl ">
+                <div class="page2box w-full h-40 my-3 bg-grey-600 flex flex-col justify-center items-center">
+                    <span class="text-zinc-100 text-3xl">Frontend:-</span>
+                    <ul>
+                        <li>Html</li>
+                        <li>Css</li>
+                        <li>javascript</li>
+                    </ul>
+                </div>
+                <div class="page2box w-full h-40 my-3 bg-grey-600 flex flex-col justify-center items-center">
+                    <span class="text-zinc-100 text-3xl">Frontend:-</span>
+                    <ul>
+                        <li>Html</li>
+                        <li>Css</li>
+                        <li>javascript</li>
+                    </ul>
+                </div>
+                <div class="page2box w-full h-40 my-3 bg-grey-600 flex flex-col justify-center items-center">
+                    <span class="text-zinc-100 text-3xl">Frontend:-</span>
+                    <ul>
+                        <li>Html</li>
+                        <li>Css</li>
+                        <li>javascript</li>
+                    </ul>
+                </div>
+                <div class="page2box w-full h-40 my-3 bg-grey-600 flex flex-col justify-center items-center">
+                    <span class="text-zinc-100 text-3xl">Backend:-</span>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                    </ul>
+                </div>
+                <div class="page2box w-full h-40 my-3 bg-grey-600 flex flex-col justify-center items-center">
+                    <span class="text-zinc-100 text-3xl">DataBase:-</span>
+                    <ul>
+                        <li>Mongodb</li>
+                    </ul>
+                </div>
+                <div class="page2box w-full h-40 my-3 bg-grey-600 flex flex-col justify-center items-center">
+                    <span class="text-zinc-100 text-3xl">Designing:-</span>
+                    <ul>
+                        <li>Figma</li>
+                    </ul>
                 </div>
 
-                <div class=" w-1/2 h-fit text-2xl ">
-                    <div class="page2box w-full h-40 my-3 bg-grey-600 flex flex-col justify-center items-center">
-                        <span class="text-zinc-100 text-3xl" >Frontend:-</span>
-                        <ul>
-                            <li>Html</li>
-                            <li>Css</li>
-                            <li>javascript</li>
-                        </ul>
-                    </div>
-                    <div class="page2box w-full h-40 my-3 bg-grey-600 flex flex-col justify-center items-center">
-                        <span class="text-zinc-100 text-3xl" >Backend:-</span>
-                        <ul>
-                            <li>Node.js</li>
-                            <li>Express.js</li>
-                        </ul>
-                    </div>
-                    <div class="page2box w-full h-40 my-3 bg-grey-600 flex flex-col justify-center items-center">
-                        <span class="text-zinc-100 text-3xl" >DataBase:-</span>
-                        <ul>
-                            <li>Mongodb</li>
-                        </ul>
-                    </div>
-                    <div class="page2box w-full h-40 my-3 bg-grey-600 flex flex-col justify-center items-center">
-                        <span class="text-zinc-100 text-3xl" >Designing:-</span>
-                        <ul>
-                            <li>Figma</li>
-                        </ul>
-                    </div>
-                    
-                </div>
             </div>
-            <div data-color="salmon" class="real  section w-full">
-                <div class="cont h-[400vh] relative ">
-                    <div class="slides  w-full flex h-screen sticky top-0 left-0 gap-10">
-                        <div class="slide w-full h-screen flex items-center justify-center flex-shrink-0">
-                            <div class="text font-[Pp Neue Machina]">
-                                <h1 class="text-9xl">Code,</h1>
-                                <h1 class="text-9xl">Error,</h1>
-                                <h1 class="text-9xl">Solve,</h1>
-                                <h1 class="text-9xl">Repeate.</h1>
-                            </div>
-                            <div class="image absolute top-1/2 -translate-y-1/2  right-0 translate-x-1/2 w-[20rem] rounded-full h-[20rem] bg-red-300 overflow-hidden">
-                                <img src="./Assets/logo png.png" class="w-full h-full object-cover bg-red-300 " alt="">
-                            </div>
+        </div>
+        <div data-color="salmon" class="real  section w-full">
+            <div class="cont h-[400vh] relative ">
+                <div class="slides  w-full flex h-screen sticky top-0 left-0 gap-10">
+                    <div class="slide w-full h-screen flex items-center justify-center flex-shrink-0">
+                        <div class="text font-[Pp Neue Machina]">
+                            <h1 class="text-9xl">Code,</h1>
+                            <h1 class="text-9xl">Error,</h1>
+                            <h1 class="text-9xl">Solve,</h1>
+                            <h1 class="text-9xl">Repeate.</h1>
                         </div>
-                        <div class="slide w-full h-screen flex-shrink-0 flex justify-center items-center relative">
-                            <div class="img1 rounded-full w-[15rem] h-[15rem] overflow-hidden absolute z-[10] top-[5%] left-2/3 -translate-x-1/2 -translate-y-1/2">
-                                <img src="./Assets/pf_one.jpg" alt="">
-                            </div>
-                            <div class="img1 rounded-full w-[10rem] h-[10rem] overflow-hidden absolute z-[10] top-[90%] right-2/3 -translate-x-1/2 -translate-y-1/2">
-                                <img src="./Assets/pf_two.jpg" alt="">
-                            </div>
-                            <div class="img1 rounded-full w-[20rem] h-[20rem] overflow-hidden absolute z-[10] top-[97%] right-1/4 -translate-x-3/2 -translate-y-1/2">
-                                <img src="./Assets/pf_one.jpg" class="-translate-y-1/4" alt="">
-                            </div>
-                            <div class="img1 rounded-full w-[25rem] h-[25rem] overflow-hidden absolute z-[10] bottom-10 -right-[10%]  -translate-y-1/2">
-                                <img src="./Assets/pf_three.jpg" class="-translate-y-1/4" alt="">
-                            </div>
-                            <div class="w-[60%] text-center relative">
-                                <h3 class="w-1/3 text-left font-semibold leading-7 tracking-tight text-[1.3rem] top-0 left-0 -translate-x-1/3 -translate-y-1/2">I'm a full-stack web developer and I work remotely from India </h3>
-                                <h1 class="font-semibold text-[12rem] leading-none text-white">DEV.</h1>
-                                <h3 class="text-5xl leading-none tracking-tight">Mongodb — Express — React — Node</h3>
-                            </div>
-                        </div>
-                        <div class="slide w-full h-screen  flex-shrink-0 flex items-center relative justify-center">
-
-                            <img class="w-60 absolute top-3/4 rotate-45 left-2/3  z-[11]" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65ea1b924ee31caf14d64b2a_TreeStructure.png" alt="">
-
-                            <img class="w-60 absolute top-0 z-[11]" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65ea1ba6eb9637155282b42f_Lightning.png" alt="">
-                            
-                            <img class="w-100 absolute top-[50%] right-[60%] z-[11]" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65ea1b841fcd9f50115dbe9c_RocketLaunch.png" alt="">
-                            
-                            <div class="w-[60%] text-center relative">
-                                <h3 class="w-1/3 text-left font-semibold leading-7 tracking-tight text-[1.3rem] top-0 left-0 -translate-x-1/3 -translate-y-1/2">Designing and reimagining the elements, and molding them into a better version.</h3>
-                                <h1 class="font-semibold text-[12rem] leading-none text-white">DESIGNER</h1>
-                                <h3 class="text-5xl leading-none tracking-tight">Figma </h3>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-            <div data-color="cyan" class="education section w-full h-screen py-20 ">
-                <div class="header h-32 w-full flex justify-center items-center ">
-                    <h1 class="text-7xl">My Education</h1>
-                </div>
-                <section class="animation w-full h-full bg-red-300 relative overflow-hidden ">
-                    <img src="./Assets/781805.png" class="paperplane h-32 w-32 absolute top-3" alt="paper_plane">
-                </section>
-            </div>
-            <div data-color="white" class="team  section py-20">
-                <h1 class="text-center text-7xl tracking-tighter">My projects</h1>
-                <div class="list px-10 w-full mt-20 ">
-                    <div class="listlem w-full border-b-2 border-black py-7 px-7 relative " >
-                        <div class="relative z-[3] flex justify-between">
-                            <div class="left flex text-center gap-10">
-                                <h3 class="text-5xl">01</h3>
-                                <h3 class="text-5xl">Headphone website</h3>
-                            </div>
-                            <h3 class="text-3xl">WEB</h3>
-                        </div>
-                        <div class="picture opacity-0 w-[15rem] h-[15rem] overflow-hidden  z-[4] absolute z-[4] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                            <img src="./Assets/html.png" class="w-full h-full" alt="">
-                        </div>
-                        <div class="bluelayer bottom-0 left-0 z-[2] absolute w-full h-full bg-blue-600 ">
+                        <div
+                            class="image absolute top-1/2 -translate-y-1/2  right-0 translate-x-1/2 w-[20rem] rounded-full h-[20rem] bg-red-300 overflow-hidden">
+                            <img src="./Assets/logo png.png" class="w-full h-full object-cover bg-red-300 " alt="">
                         </div>
                     </div>
-                    
-                </div>
-            </div>
-            <div data-color="white" class="para  section w-full h-[70vh] flex items-center justify-center">
-                <div class="text w-[70%] flex flex-col items-center justify-center">
-                    <h3 class=" textpara text-3xl font-light text-center leading-[2.8rem]">
-                        Hey there! I'm Anubhav, a passionate full-stack developer and designer with a keen eye for detail and a love for crafting meaningful digital experiences.
-                        As a full-stack developer, I thrive on the challenge of building robust, scalable applications from the ground up. From crafting clean and efficient code on the backend to designing intuitive user interfaces on the frontend, I enjoy every step of the development process.
-                    </h3>
-                    <div class="pers flex flex-col items-center justify-center mt-10 gap-5">
-                        <div class="image w-32 h-32 bg-red-300 overflow-hidden rounded-full ">
+                    <div class="slide w-full h-screen flex-shrink-0 flex justify-center items-center relative">
+                        <div
+                            class="img1 rounded-full w-[15rem] h-[15rem] overflow-hidden absolute z-[10] top-[5%] left-2/3 -translate-x-1/2 -translate-y-1/2">
                             <img src="./Assets/pf_one.jpg" alt="">
                         </div>
-                        <h1 class="text-3xl">Anubhav Dubey</h1>
-                        <h3>Developer @ Content Creator</h3>
+                        <div
+                            class="img1 rounded-full w-[10rem] h-[10rem] overflow-hidden absolute z-[10] top-[90%] right-2/3 -translate-x-1/2 -translate-y-1/2">
+                            <img src="./Assets/pf_two.jpg" alt="">
+                        </div>
+                        <div
+                            class="img1 rounded-full w-[20rem] h-[20rem] overflow-hidden absolute z-[10] top-[97%] right-1/4 -translate-x-3/2 -translate-y-1/2">
+                            <img src="./Assets/pf_one.jpg" class="-translate-y-1/4" alt="">
+                        </div>
+                        <div
+                            class="img1 rounded-full w-[25rem] h-[25rem] overflow-hidden absolute z-[10] bottom-10 -right-[10%]  -translate-y-1/2">
+                            <img src="./Assets/pf_three.jpg" class="-translate-y-1/4" alt="">
+                        </div>
+                        <div class="w-[60%] text-center relative">
+                            <h3
+                                class="w-1/3 text-left font-semibold leading-7 tracking-tight text-[1.3rem] top-0 left-0 -translate-x-1/3 -translate-y-1/2">
+                                I'm a full-stack web developer and I work remotely from India </h3>
+                            <h1 class="font-semibold text-[12rem] leading-none text-white">DEV.</h1>
+                            <h3 class="text-5xl leading-none tracking-tight">Mongodb — Express — React — Node</h3>
+                        </div>
                     </div>
+                    <div class="slide w-full h-screen  flex-shrink-0 flex items-center relative justify-center">
+
+                        <img class="w-60 absolute top-3/4 rotate-45 left-2/3  z-[11]"
+                            src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65ea1b924ee31caf14d64b2a_TreeStructure.png"
+                            alt="">
+
+                        <img class="w-60 absolute top-0 z-[11]"
+                            src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65ea1ba6eb9637155282b42f_Lightning.png"
+                            alt="">
+
+                        <img class="w-100 absolute top-[50%] right-[60%] z-[11]"
+                            src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65ea1b841fcd9f50115dbe9c_RocketLaunch.png"
+                            alt="">
+
+                        <div class="w-[60%] text-center relative">
+                            <h3
+                                class="w-1/3 text-left font-semibold leading-7 tracking-tight text-[1.3rem] top-0 left-0 -translate-x-1/3 -translate-y-1/2">
+                                Designing and reimagining the elements, and molding them into a better version.</h3>
+                            <h1 class="font-semibold text-[12rem] leading-none text-white">DESIGNER</h1>
+                            <h3 class="text-5xl leading-none tracking-tight">Figma </h3>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-
-            <div class="footer w-full h-64 bg-zinc-900 mt-10 flex justify-center items-center">
-                <h1 class="text-9xl text-white " >Thank you</h1>
+        </div>
+        <div data-color="cyan" class="education section w-full h-fit py-20 ">
+            <div class="header h-32 w-full flex justify-center items-center ">
+                <h1 class="text-7xl">My Education</h1>
             </div>
-        </div>  
-    
-        <!-- Gsap . js -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            <div class="animation w-full h-full px-10 relative py-10  relative overflow-hidden ">
+                <!-- <img src="./Assets/781805.png" class="paperplane h-32 w-32 absolute top-3" alt="paper_plane"> -->
+                <div class="box z-10 w-32 h-32 absolute"><img class="h-32 w-32" src="./Assets/cap.png" alt=""></div>
+                <svg class="w-3/4" viewBox="0 0 1270 3094" fill="none" >
+                    <path id="path"
+                        d="M3 0C3 0 632.5 272 744 317.5C855.5 363 1295 546 1262 866C1229 1186 855.5 1067.5 542 1369.5C228.5 1671.5 744 1852.5 744 1852.5C744 1852.5 919 1927 1090.5 2079.5C1262 2232 1194 2512.5 1066 2669.5C938 2826.5 647.5 3093 647.5 3093"
+                        stroke="salmon" stroke-width="11" />
+                </svg>
 
-        <!-- Scrolltrigger -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            </div>
+        </div>
+        <div data-color="white" class="team  section py-20">
+            <h1 class="text-center text-7xl tracking-tighter">My projects</h1>
+            <div class="list px-10 w-full mt-20 ">
+                <div class="listlem w-full border-b-2 border-black py-7 px-7 relative ">
+                    <div class="relative z-[3] flex justify-between">
+                        <div class="left flex text-center gap-10">
+                            <h3 class="text-5xl">01</h3>
+                            <h3 class="text-5xl">Headphone website</h3>
+                        </div>
+                        <h3 class="text-3xl">WEB</h3>
+                    </div>
+                    <div
+                        class="picture opacity-0 w-[15rem] h-[15rem] overflow-hidden  z-[4] absolute z-[4] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                        <img src="./Assets/html.png" class="w-full h-full" alt="">
+                    </div>
+                    <div class="bluelayer bottom-0 left-0 z-[2] absolute w-full h-full bg-blue-600 ">
+                    </div>
+                </div>
 
-        <!-- locomotive to be implemented -->
-        <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
+            </div>
+        </div>
+        <div data-color="white" class="para  section w-full h-[70vh] flex items-center justify-center">
+            <div class="text w-[70%] flex flex-col items-center justify-center">
+                <h3 class=" textpara text-3xl font-light text-center leading-[2.8rem]">
+                    Hey there! I'm Anubhav, a passionate full-stack developer and designer with a keen eye for detail
+                    and a love for crafting meaningful digital experiences.
+                    As a full-stack developer, I thrive on the challenge of building robust, scalable applications from
+                    the ground up. From crafting clean and efficient code on the backend to designing intuitive user
+                    interfaces on the frontend, I enjoy every step of the development process.
+                </h3>
+                <div class="pers flex flex-col items-center justify-center mt-10 gap-5">
+                    <div class="image w-32 h-32 bg-red-300 overflow-hidden rounded-full ">
+                        <img src="./Assets/pf_one.jpg" alt="">
+                    </div>
+                    <h1 class="text-3xl">Anubhav Dubey</h1>
+                    <h3>Developer @ Content Creator</h3>
+                </div>
+            </div>
+        </div>
 
-        <!-- motion pasth -->
-        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/MotionPathPlugin.min.js"></script>
+        <div data-color="black" class="footer w-full h-64 bg-zinc-900 mt-10 flex justify-center items-center">
+            <h1 class="text-9xl text-white ">Thank you</h1>
+        </div>
+    </div>
 
-        <!-- script.js -->
-        <script src="script.js"></script>
+    <!-- Gsap . js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-        
+    <!-- Scrolltrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- locomotive to be implemented -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
+
+    <!-- motion pasth -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/MotionPathPlugin.min.js"></script>
+
+    <!-- script.js -->
+    <script src="script.js"></script>
+
+
 </body>
+
 </html>

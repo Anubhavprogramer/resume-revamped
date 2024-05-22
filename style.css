@@ -65,3 +65,19 @@ body[theme="blue"] .section {
 .page2box{
     background-color: rgb(27, 136, 136);
 }
+
+/* svg{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.animation{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+} */
