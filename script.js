@@ -1,9 +1,29 @@
+changecolor()
 homepageAnimation();
 realpageanitmation();
 teamworks();
 paraanimation();
 loco();
 timelineanimation()
+
+function changecolor() {
+  // this is to change the color of the text
+  document.addEventListener('scroll', function() {
+    let containers = document.querySelectorAll('.color-manager');
+    let body = document.body;
+    containers.forEach(container => {
+        let rect = container.getBoundingClientRect();
+        if (rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2) {
+            let color = container.getAttribute('data-color');
+            body.setAttribute('theme', color);
+        }
+    });
+});
+
+
+}
+
+
 function homepageAnimation() {
   gsap.set(".marquee", { scale: 5 });
 
