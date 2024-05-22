@@ -3,8 +3,7 @@ realpageanitmation();
 teamworks();
 paraanimation();
 loco();
-capsuleanimation();
-
+timelineanimation()
 function homepageAnimation() {
   gsap.set(".marquee", { scale: 5 });
 
@@ -127,20 +126,6 @@ function loco() {
   })();
 }
 
-function capsuleanimation() {
-  gsap.to(".capsule:nth-child(2)", {
-    scrollTrigger: {
-      trigger: ".capsules",
-      start: "top 70%",
-      end: "bottom bottom",
-      scrub: 2,
-    },
-    y: 0,
-    ease: Power4,
-  });
-}
-
-
 function timelineanimation(){
   gsap.registerPlugin(MotionPathPlugin);
   
@@ -164,5 +149,3 @@ function timelineanimation(){
     ease: "linear",
   });
 }
-
-timelineanimation()
