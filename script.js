@@ -5,6 +5,10 @@ teamworks();
 paraanimation();
 loco();
 timelineanimation()
+boxanimation()
+
+
+
 
 function changecolor() {
   // this is to change the color of the text
@@ -168,4 +172,72 @@ function timelineanimation(){
     // duration: 2,
     ease: "linear",
   });
+}
+
+
+function boxanimation() {
+
+  let tl = gsap.timeline();
+
+tl.from(".edu", {
+  scrollTrigger: {
+    trigger: ".edu",
+    start: "top 90%",
+    end: "bottom 60%",
+    markers: true,
+    scrub: 0.2,
+  },
+  x: -500,
+  ease: Power4.easeOut,
+  duration: 2,
+})
+.from(".edu2", {
+  scrollTrigger: {
+    trigger: ".edu2",
+    start: "top 90%",
+    end: "bottom 60%",
+    markers: true,
+    scrub: 0.2,
+  },
+  x: -500,
+  ease: Power4.easeOut,
+  duration: 2,
+})
+.from(".edu3", {
+  scrollTrigger: {
+    trigger: ".edu3",
+    start: "top 90%",
+    end: "bottom 60%",
+    markers: true,
+    scrub: 0.2,
+  },
+  x: -500,
+  ease: Power4.easeOut,
+  duration: 2,
+})
+.from(".edu4", {
+  scrollTrigger: {
+    trigger: ".edu4",
+    start: "top 90%",
+    end: "bottom 60%",
+    markers: true,
+    scrub: 0.2,
+  },
+  x: -500,
+  ease: Power4.easeOut,
+  duration: 2,
+})
+.from(".edu5", {
+  scrollTrigger: {
+    trigger: ".edu5",
+    start: "top 90%",
+    end: "bottom 60%",
+    markers: true,
+    scrub: 0.2,
+  },
+  x: -500,
+  ease: Power4.easeOut,
+  duration: 2,
+});
+
 }
