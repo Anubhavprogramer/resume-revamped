@@ -162,8 +162,7 @@ function timelineanimation(){
       scrub: true,
     },
   });
-  
-  
+   
   timeline.to(".box", {
     motionPath: {
       path: "#path",
